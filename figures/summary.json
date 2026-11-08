@@ -1,0 +1,55 @@
+{
+  "camera_centre": [
+    -2.0,
+    0.8,
+    0.0
+  ],
+  "R": [
+    [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "t": [
+    0.8,
+    0.0,
+    2.0
+  ],
+  "triangles": 12894,
+  "unique_vertices": 6449,
+  "points_in_front": 154728,
+  "points_total": 154728,
+  "figures": [
+    {
+      "copy": 0,
+      "mean_depth": 2.0,
+      "image_height": 0.995
+    },
+    {
+      "copy": 1,
+      "mean_depth": 3.0,
+      "image_height": 0.643
+    },
+    {
+      "copy": 2,
+      "mean_depth": 4.0,
+      "image_height": 0.475
+    },
+    {
+      "copy": 3,
+      "mean_depth": 5.0,
+      "image_height": 0.377
+    }
+  ]
+}
