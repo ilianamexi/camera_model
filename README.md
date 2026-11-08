@@ -66,6 +66,6 @@ matrix, that the camera centre maps to the origin, that a point on the optical a
 - **No intrinsic matrix.** The focal length is 1 and there is no principal point or pixel size, so
   (u, v) are normalised image coordinates, not pixels. Multiplying by an intrinsic matrix K would
   give pixel coordinates.
-- **Approximate occlusion.** The filled rendering sorts whole triangles by mean depth. This is
-  correct for this scene but can fail where triangles overlap in depth; a z-buffer would be exact.
+- **Approximate occlusion.** The filled rendering sorts whole triangles by mean depth. It looks
+  right for this scene but can fail where triangles overlap in depth; a z-buffer would be exact.
 - **Course origin.** Written as a course assignment on camera models.
